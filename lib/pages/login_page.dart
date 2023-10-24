@@ -23,7 +23,7 @@ class _LoginPageState extends State<LoginPage> {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: SafeArea(
         child: Center(
           child: Column(
@@ -52,7 +52,7 @@ class _LoginPageState extends State<LoginPage> {
 
               //password textfield
               MyTextField(
-                controller: passwordController, // Use the correct controller
+                controller: passwordController,
                 hintText: 'Password',
                 obscureText: true,
               ),
