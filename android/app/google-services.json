@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "232826642343",
+    "project_id": "chatapp-fltr-ba18c",
+    "storage_bucket": "chatapp-fltr-ba18c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232826642343:android:7e3432e98b44ea7d222082",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT8T2CDCfrhEpuw4v6lF6lQWf3RLcSLgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

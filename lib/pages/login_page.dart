@@ -21,7 +21,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 245, 143, 83),
+      backgroundColor: const Color.fromARGB(255, 245, 143, 83),
       body: SafeArea(
         child: Center(
           child: Padding(
@@ -32,7 +32,7 @@ class _LoginPageState extends State<LoginPage> {
                 const SizedBox(height: 50),
 
                 //Logo
-                Icon(
+                const Icon(
                   Icons.message,
                   size: 100,
                   color: Colors.black,
@@ -42,7 +42,7 @@ class _LoginPageState extends State<LoginPage> {
 
                 //Welcome
                 const Text(
-                  "Welcome back, you\'ve been missed !",
+                  "Welcome back, you've been missed !",
                   style: TextStyle(
                     fontSize: 16,
                   ),
