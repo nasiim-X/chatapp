@@ -21,8 +21,12 @@ class MyTextField extends StatelessWidget {
           borderSide: BorderSide(color: Colors.grey.shade200),
         ),
         focusedBorder: const OutlineInputBorder(
-          borderSide: BorderSide(color: Colors.black),
+          borderSide: BorderSide(color: Colors.red),
         ),
+        fillColor: Color.fromARGB(255, 235, 99, 20),
+        filled: true,
+        hintText: hintText,
+        hintStyle: const TextStyle(color: Colors.white),
       ),
     );
   }
